@@ -67,9 +67,10 @@ header div > button {
   border-radius: 5px;
   background-color: transparent;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 400;
   height: 40px;
   padding: 0 35px;
+  letter-spacing: 1.5px;
 }
 
 header div > button:hover {
@@ -430,6 +431,150 @@ header .hamburger-icon {
   background-color: white;
   color: #5368df;
   border: 2px solid #5368df;
+}
+
+footer {
+  background-color: #5368df;
+}
+
+footer div {
+  width: 450px;
+  height: 360px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+}
+
+footer div form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+footer div form input {
+  width: 300px;
+  height: 50px;
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 5px;
+  padding: 0 25px;
+  margin-right: 25px;
+}
+
+footer div form input::-webkit-input-placeholder {
+  opacity: .3;
+}
+
+footer div form input:-ms-input-placeholder {
+  opacity: .3;
+}
+
+footer div form input::-ms-input-placeholder {
+  opacity: .3;
+}
+
+footer div form input::placeholder {
+  opacity: .3;
+}
+
+footer div form button {
+  height: 50px;
+  border: 2px solid #fa5757;
+  background-color: #fa5757;
+  color: white;
+  font-weight: 400;
+  border-radius: 5px;
+  padding: 0 25px;
+}
+
+footer div form button:hover {
+  background-color: white;
+  color: #fa5757;
+}
+
+footer main {
+  background-color: #252b46;
+}
+
+footer main section {
+  width: 1120px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer main section div {
+  height: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer main section div svg {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+footer main section div svg g:first-of-type path {
+  fill: white;
+}
+
+footer main section div button {
+  background-color: transparent;
+  color: white;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  border: none;
+  margin-left: 70px;
+  text-transform: uppercase;
+}
+
+footer main section div button:hover {
+  color: #fa5757;
+}
+
+footer main section div:last-of-type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+footer main section div:last-of-type svg {
+  margin-left: 40px;
+}
+
+footer main section div:last-of-type svg:hover path {
+  fill: #fa5757;
 }
 
 @media screen and (max-width: 375px) {
@@ -846,6 +991,149 @@ header .hamburger-icon {
     background-color: white;
     color: #5368df;
     border: 2px solid #5368df;
+  }
+  footer {
+    background-color: #5368df;
+  }
+  footer div {
+    width: auto;
+    height: 360px;
+    margin: 0 32px 0 32px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    color: white;
+  }
+  footer div form {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer div form input {
+    width: 100%;
+    height: 50px;
+    border: 2px solid white;
+    background-color: white;
+    border-radius: 5px;
+    padding: 0 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
+  }
+  footer div form input::-webkit-input-placeholder {
+    opacity: .3;
+  }
+  footer div form input:-ms-input-placeholder {
+    opacity: .3;
+  }
+  footer div form input::-ms-input-placeholder {
+    opacity: .3;
+  }
+  footer div form input::placeholder {
+    opacity: .3;
+  }
+  footer div form input:active {
+    color: black;
+  }
+  footer div form button {
+    height: 50px;
+    border: 2px solid #fa5757;
+    background-color: #fa5757;
+    color: white;
+    font-weight: 400;
+    border-radius: 5px;
+    padding: 0 25px;
+  }
+  footer div form button:hover {
+    background-color: white;
+    color: #fa5757;
+  }
+  footer main {
+    background-color: #252b46;
+  }
+  footer main section {
+    width: auto;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  footer main section div {
+    height: 370px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0;
+  }
+  footer main section div svg {
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+  }
+  footer main section div svg g:first-of-type path {
+    fill: white;
+  }
+  footer main section div button {
+    background-color: transparent;
+    width: 100vw;
+    color: white;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    border: none;
+    margin-left: 0px;
+    text-transform: uppercase;
+  }
+  footer main section div button:hover {
+    color: #fa5757;
+  }
+  footer main section div:last-of-type {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    height: 70px;
+  }
+  footer main section div:last-of-type svg {
+    margin: 0px 25px;
+  }
+  footer main section div:last-of-type svg:hover path {
+    fill: #fa5757;
   }
 }
 /*# sourceMappingURL=style.css.map */
