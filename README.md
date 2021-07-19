@@ -23,7 +23,6 @@ Thanks for checking out this front-end coding challenge.
 
 ![mobile site ](./screenshots/Mobile_s1.png)
 ![mobile site ](./screenshots/Mobile_s2.png)
-![mobile site ](./screenshots/Mobile_s3.png)
 ![mobile site ](./screenshots/Mobile_s4.png)
 ![mobile site ](./screenshots/Mobile_s5.png)
 ![mobile site ](./screenshots/Mobile_s6.png)
