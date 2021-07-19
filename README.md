@@ -6,7 +6,7 @@
 
 Thanks for checking out this front-end coding challenge.
 
-[Site Preview](blah)Site Preview
+[Site Preview](blah) Site Preview
 
 [Frontend Mentor](https://www.frontendmentor.io) provided with this challenge .
 
@@ -17,15 +17,23 @@ Thanks for checking out this front-end coding challenge.
 ### Desktop ScreenShots
 
 ![desktop site ](./screenshots/Desktop_s1.png)
+
+<br/>
+
 ![desktop site ](./screenshots/Desktop_s2.png)
 
 ### Mobile ScreenShots
 
 ![mobile site ](./screenshots/Mobile_s1.png)
 ![mobile site ](./screenshots/Mobile_s2.png)
-![mobile site ](./screenshots/Mobile_s3.png)
+
+<br/>
+
 ![mobile site ](./screenshots/Mobile_s4.png)
 ![mobile site ](./screenshots/Mobile_s5.png)
+
+<br/>
+
 ![mobile site ](./screenshots/Mobile_s6.png)
 ![mobile site ](./screenshots/Mobile_s7.png)
 
