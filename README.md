@@ -16,6 +16,8 @@ Thanks for checking out this front-end coding challenge.
 
 ### Desktop ScreenShots
 
+<br/>
+
 ![desktop site ](./screenshots/Desktop_s1.png)
 
 <br/>
@@ -24,14 +26,13 @@ Thanks for checking out this front-end coding challenge.
 
 ### Mobile ScreenShots
 
+<br/>
+
 ![mobile site ](./screenshots/Mobile_s1.png)
 ![mobile site ](./screenshots/Mobile_s2.png)
-<<<<<<< HEAD
 
 <br/>
 
-=======
->>>>>>> e9db19d7f134ef399da2d5cfa236b82263dbc88b
 ![mobile site ](./screenshots/Mobile_s4.png)
 ![mobile site ](./screenshots/Mobile_s5.png)
 
