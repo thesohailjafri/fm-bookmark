@@ -28,7 +28,18 @@
     </style> -->
   </head>
 
-  <body>
+  <div class="loader" id="loader">
+    <div class="spinner-box" id="mainloader">
+      <div class="configure-border-1">
+        <div class="configure-core"></div>
+      </div>
+      <div class="configure-border-2">
+        <div class="configure-core"></div>
+      </div>
+    </div>
+  </div>
+
+  <body onload="stoploader()">
 
     <header id="header">
       <img class="bookmark-icon" src="./images/logo-bookmark.svg" alt="icon-bookmark">
@@ -267,6 +278,8 @@
         </section>
       </main>
     </footer>
+
+
 
 
     <!-- <footer>
