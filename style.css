@@ -387,6 +387,10 @@ header .hamburger-icon {
           justify-content: space-between;
 }
 
+.qnas ul li:first-of-type:hover {
+  color: #fa5757;
+}
+
 .qnas ul li:first-of-type svg {
   -o-object-fit: contain;
      object-fit: contain;
@@ -475,6 +479,10 @@ footer div form input {
   border-radius: 5px;
   padding: 0 25px;
   margin-right: 25px;
+}
+
+footer div form input:invalid {
+  border: 2px solid #fa5757;
 }
 
 footer div form input::-webkit-input-placeholder {
@@ -635,6 +643,9 @@ footer main section div:last-of-type svg:hover path {
         -ms-flex-align: center;
             align-items: center;
     padding: 40px 0;
+  }
+  .mobimenu .mobimenu-head svg g path {
+    fill: white;
   }
   .mobimenu .menuoptions {
     margin: 0px 30px;

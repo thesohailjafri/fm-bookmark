@@ -1,10 +1,14 @@
 const openMenu = () => {
-    const menudiv = document.getElementById('hamburger-icon')
+    const mobimenu = document.getElementById('mobimenu')
+    const header = document.getElementById('header')
+    header.style.opacity = "0"
     mobimenu.style.display = "block"
 }
 
 const closeMenu = () => {
-    const mobimenu = document.getElementById("mobimenu")
+    const mobimenu = document.getElementById('mobimenu')
+    const header = document.getElementById('header')
+    header.style.opacity = "1"
     mobimenu.style.display = "none"
 }
 

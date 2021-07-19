@@ -368,6 +368,10 @@ header {
                 display: flex;
                 justify-content: space-between;
 
+                &:hover {
+                    color: $Soft-Red;
+                }
+
                 svg {
                     object-fit: contain;
                     margin-right: 20px;
@@ -457,6 +461,10 @@ footer {
                 border-radius: 5px;
                 padding: 0 25px;
                 margin-right: 25px;
+
+                &:invalid {
+                    border: 2px solid $Soft-Red;
+                }
 
                 &::placeholder {
                     opacity: .3;
@@ -595,6 +603,15 @@ footer {
             justify-content: space-between;
             align-items: center;
             padding: 40px 0;
+
+            svg {
+                g {
+                    path {
+                        fill: white
+                    }
+                }
+            }
+
         }
 
         .menuoptions {
