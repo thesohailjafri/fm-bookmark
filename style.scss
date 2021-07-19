@@ -44,10 +44,12 @@ body {
 @keyframes showblueblock {
     0% {
         width: 0px;
+        opacity: 0;
     }
 
     100% {
         width: 500px;
+        opacity: 1;
     }
 }
 
@@ -173,13 +175,13 @@ header {
             position: relative;
             z-index: -1;
             height: 360px;
-            width: 0px;
+            max-width: 500px;
             margin-left: auto;
             background-color: $Soft-Blue;
             transform: translateY(-95%);
             border-radius: 160px 0 0 160px;
             animation-name: showblueblock;
-            animation-delay: 1s;
+            animation-delay: 0s;
             animation-duration: 1s;
             animation-timing-function: ease;
         }
@@ -565,10 +567,12 @@ footer {
     @keyframes showblueblock {
         0% {
             width: 0px;
+            opacity: 0;
         }
 
         100% {
             width: 300px;
+            opacity: 1;
         }
     }
 
@@ -720,7 +724,7 @@ footer {
                 position: relative;
                 z-index: -1;
                 height: 200px;
-                width: 0px;
+                max-width: 300px;
                 margin-left: auto;
                 background-color: $Soft-Blue;
                 transform: translateY(-95%);

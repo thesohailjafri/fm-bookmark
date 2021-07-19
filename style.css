@@ -34,17 +34,21 @@ body {
 @-webkit-keyframes showblueblock {
   0% {
     width: 0px;
+    opacity: 0;
   }
   100% {
     width: 500px;
+    opacity: 1;
   }
 }
 @keyframes showblueblock {
   0% {
     width: 0px;
+    opacity: 0;
   }
   100% {
     width: 500px;
+    opacity: 1;
   }
 }
 
@@ -181,7 +185,7 @@ header .hamburger-icon {
   position: relative;
   z-index: -1;
   height: 360px;
-  width: 0px;
+  max-width: 500px;
   margin-left: auto;
   background-color: #5368df;
   -webkit-transform: translateY(-95%);
@@ -189,8 +193,8 @@ header .hamburger-icon {
   border-radius: 160px 0 0 160px;
   -webkit-animation-name: showblueblock;
           animation-name: showblueblock;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
   -webkit-animation-duration: 1s;
           animation-duration: 1s;
   -webkit-animation-timing-function: ease;
@@ -591,17 +595,21 @@ footer main section div:last-of-type svg:hover path {
   @-webkit-keyframes showblueblock {
     0% {
       width: 0px;
+      opacity: 0;
     }
     100% {
       width: 300px;
+      opacity: 1;
     }
   }
   @keyframes showblueblock {
     0% {
       width: 0px;
+      opacity: 0;
     }
     100% {
       width: 300px;
+      opacity: 1;
     }
   }
   header {
@@ -757,7 +765,7 @@ footer main section div:last-of-type svg:hover path {
     position: relative;
     z-index: -1;
     height: 200px;
-    width: 0px;
+    max-width: 300px;
     margin-left: auto;
     background-color: #5368df;
     -webkit-transform: translateY(-95%);
