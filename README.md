@@ -6,9 +6,9 @@
 
 Thanks for checking out this front-end coding challenge.
 
-[Site Preview](blah) Site Preview
+[Site Preview](https://fm-bookmark-dopedev.netlify.app/) Site Preview
 
-[Frontend Mentor](https://www.frontendmentor.io) provided with this challenge .
+[Frontend Mentor](https://www.frontendmentor.io) Provided this challenge .
 
 **To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
 
