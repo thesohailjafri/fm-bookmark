@@ -181,7 +181,7 @@ header .hamburger-icon {
   position: relative;
   z-index: -1;
   height: 360px;
-  width: 500px;
+  width: 0px;
   margin-left: auto;
   background-color: #5368df;
   -webkit-transform: translateY(-95%);
@@ -757,7 +757,7 @@ footer main section div:last-of-type svg:hover path {
     position: relative;
     z-index: -1;
     height: 200px;
-    width: 300px;
+    width: 0px;
     margin-left: auto;
     background-color: #5368df;
     -webkit-transform: translateY(-95%);
